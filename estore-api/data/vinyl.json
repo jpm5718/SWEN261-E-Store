@@ -1,0 +1,157 @@
+[
+    {
+        "id": 1,
+        "title": "Piano Man",
+        "price": 27.0,
+        "artist": "Billy Joel",
+        "speed": 33,
+        "size": 12,
+        "sList": [
+            {
+                "title": "Piano Man",
+                "artist": "Billy Joel",
+                "songLink": null
+            }
+        ],
+        "total_duration": null,
+        "quantity": 419,
+        "coverImagePath": null
+    },
+    {
+        "id": 3,
+        "title": "The Forever Story",
+        "price": 12.0,
+        "artist": "JID",
+        "speed": 45,
+        "size": 7,
+        "sList": [
+            {
+                "title": "Dance Now",
+                "artist": "JID (feat. Kenny Mason)",
+                "songLink": null
+            },
+            {
+                "title": "Surround Sound",
+                "artist": "JID (feat. 21 Savage & Baby Tate)",
+                "songLink": null
+            },
+            {
+                "title": "Kody Blue 31",
+                "artist": "JID",
+                "songLink": null
+            }
+        ],
+        "total_duration": null,
+        "quantity": 4,
+        "coverImagePath": null
+    },
+    {
+        "id": 4,
+        "title": "When We Were Friends",
+        "price": 17.99,
+        "artist": "The Backseat Lovers",
+        "speed": 33,
+        "size": 12,
+        "sList": [
+            {
+                "title": "Pool House",
+                "artist": "The Backseat Lovers",
+                "songLink": null
+            },
+            {
+                "title": "Kilby Girl",
+                "artist": "The Backseat Lovers",
+                "songLink": null
+            },
+            {
+                "title": "Maple Syrup",
+                "artist": "The Backseat Lovers",
+                "songLink": null
+            },
+            {
+                "title": "Davy Crochet",
+                "artist": "The Backseat Lovers",
+                "songLink": null
+            }
+        ],
+        "total_duration": null,
+        "quantity": 12,
+        "coverImagePath": null
+    },
+    {
+        "id": 7,
+        "title": "All Alone",
+        "price": 400.0,
+        "artist": "Frank Sinatra",
+        "speed": 45,
+        "size": 7,
+        "sList": [
+            {
+                "title": "Are You Lonesome Tonight?",
+                "artist": "Frank Sinatra",
+                "songLink": null
+            },
+            {
+                "title": "What'll I Do?",
+                "artist": "Frank Sinatra",
+                "songLink": null
+            }
+        ],
+        "total_duration": null,
+        "quantity": 5,
+        "coverImagePath": null
+    },
+    {
+        "id": 9,
+        "title": "Greatest Hits",
+        "price": 19.99,
+        "artist": "The Notorious B.I.G.",
+        "speed": 33,
+        "size": 12,
+        "sList": [
+            {
+                "title": "Juicy",
+                "artist": "The Notorious B.I.G.",
+                "songLink": null
+            },
+            {
+                "title": "Big Poppa",
+                "artist": "The Notorious B.I.G.",
+                "songLink": null
+            }
+        ],
+        "total_duration": null,
+        "quantity": 25,
+        "coverImagePath": null
+    },
+    {
+        "id": 11,
+        "title": "Other album by Billy",
+        "price": 27.0,
+        "artist": "Billy Joel",
+        "speed": 33,
+        "size": 12,
+        "sList": [
+            {
+                "title": "Not a Song",
+                "artist": "Billy Joel",
+                "songLink": null
+            }
+        ],
+        "total_duration": null,
+        "quantity": 419,
+        "coverImagePath": null
+    },
+    {
+        "id": 12,
+        "title": "Entergalactic",
+        "price": 30.0,
+        "artist": "Kid Cudi",
+        "speed": 12,
+        "size": 45,
+        "sList": [],
+        "total_duration": null,
+        "quantity": 0,
+        "coverImagePath": null
+    }
+]

@@ -1,0 +1,64 @@
+cURL commands for Sprint 1 demo and testing
+@author J Russ
+
+
+1. curl -X POST -H 'Content-Type:application/json' 'http://localhost:8080/vinyl' -d '{\"id\" : 3,\"title\" : \"Lychee\",\"price\" : 45.00,\"quantity\" : 29,\"artist\" : \"BENEE\",\"speed\" : 33,\"size\" : 12,\"sList\" : [{ \"title\" : \"Beach Boy\",\"artist\" : \"BENEE\",\"dur\" : \"3:12\"},{\"title\" : \"Soft Side\",\"artist\" : \"BENEE\",\"dur\" : \"2:34\"},{\"title\" : \"Hurt You, Gus\",\"artist\" : \"BENEE\",\"dur\" : \"2:51\"},{\"title\" : \"Never Ending\",\"artist\" : \"BENEE\",\"dur\" : \"3:57\"},{\"title\" : \"Marry Myself\",\"artist\" : \"BENEE\",\"dur\" : \"3:02\"},{\"title\" : \"Doesnt Matter\",\"artist\" : \"BENEE\",\"dur\" : \"3:23\"},{\"title\" : \"Make You Sick\",\"artist\" : \"BENEE\",\"dur\" : \"6:47\"}]}'
+    // Create a new product in the inventory (price and quantity) :
+    
+2. curl -X DELETE 'http://localhost:8080/vinyl/3'
+    // Delete a product in the inventory
+
+3. curl -X GET 'http://localhost:8080/vinyl/1'
+    // Retrieve a specific product
+
+4. curl -X GET 'http://localhost:8080/vinyl/?searchKey=Grayscale'
+    // Search for a product by partial name
+
+5. curl -X PUT -H 'Content-Type:application/json' 'http://localhost:8080/vinyl' -g -d '{\"id\" : 1,\"title\" : \"Piano Man\",\"price\" : 27.00,\"quantity\" : 419,\"artist\" : \"Billy Joel\",\"speed\" : 33,\"size\" : 12,\"sList\" : [{\"title\" :\"Piano Man\", \"artist\" :\"Billy Joel\", \"dur\" : \"3:45\"}]}'
+    // Update the price or quantity of a product in the inventory
+
+5.5 curl.exe -X PUT 'http://localhost:8080/account/1/add/4'
+
+6. curl -X GET 'http://localhost:8080/vinyl'
+    // List all the products (name, price, quantity, etc.) in the inventory
+
+    {
+        \"id\" : 3,
+        \"title\" : \"Lychee\",
+        \"price\" : 45.00,
+        \"quantity\" : 29,
+        \"artist\" : \"BENEE\",
+        \"speed\" : 33,
+        \"size\" : 12,
+        \"sList\" : [
+            {
+                \"title\" : \"Beach Boy\",
+                \"artist\" : \"BENEE\",
+                \"dur\" : \"3:12\"
+            },{
+                \"title\" : \"Soft Side\",
+                \"artist\" : \"BENEE\",
+                \"dur\" : \"2:34\"
+            },{
+                \"title\" : \"Hurt You, Gus\",
+                \"artist\" : \"BENEE\",
+                \"dur\" : \"2:51\"
+            },{
+                \"title\" : \"Never Ending\",
+                \"artist\" : \"BENEE\",
+                \"dur\" : \"3:57\"
+            },{
+                \"title\" : \"Marry Myself\",
+                \"artist\" : \"BENEE\",
+                \"dur\" : \"3:02\"
+            },{
+                \"title\" : \"Doesn't Matter\",
+                \"artist\" : \"BENEE\",
+                \"dur\" : \"3:23\"
+            },{
+                \"title\" : \"Make You Sick\",
+                \"artist\" : \"BENEE\",
+                \"dur\" : \"6:47\"
+            }
+        ]
+    }
